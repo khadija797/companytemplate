@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #26282a;
+ 
+}
+
+ a{
+  text-decoration: none;
+  color: inherit;
+} 
+
+p {
+  color: #f0eadd;
+}
+
+.navbar, .who, .work, .tech {
+  width: 80%;
+  margin: auto;
+  
+}
+
+.mission {
+  width: 80%;
+  margin: auto;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes fadeInLeftToRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-0%);
+  }
+}
+
+
+
+button {
+background-color: #e6b141;
+border: none;
+padding: 12px 20px;
+letter-spacing: 2px;
+font-size: 15px;
+border-radius: 8px;
+}

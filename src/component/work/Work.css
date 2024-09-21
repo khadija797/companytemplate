@@ -1,0 +1,40 @@
+.work {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 60px;
+  margin-top: 120px;
+}
+
+.work-box {
+flex: 1;
+max-width: 30%;
+padding: 20px;
+background-color: #26282a;
+border-radius: 8px;
+box-shadow: 0 0 20px #ffcc00;
+text-align: center;
+animation: fadeInLeftToRight 3s forwards; 
+height: 500px;
+}
+
+.work-box h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #e6b141;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.work-box p {
+  color: #fff;
+  margin-left: 20px;
+  margin-right: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.work-box h2:hover {
+  color: #fff;
+  cursor: pointer;
+}

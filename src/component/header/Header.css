@@ -1,0 +1,25 @@
+.header {
+  height: 38vw;
+  margin: 30px auto;
+  background-image: url('../../../public/keyboard.jpg');
+  background-size: cover;
+  position: relative;
+  z-index: 1000;
+}
+
+.header-contents {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: fadeInLeft 3s forwards; 
+}
+
+.header-contents h1 {
+  font-size: max(6vw,22px);
+  color: #e6b141;
+  letter-spacing: 2px;
+  word-spacing: 6px;
+  text-align: center;
+}
